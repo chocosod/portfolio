@@ -168,7 +168,7 @@ main .sec1 #sec1_square #sec1_square_title .square_title_bottom {
   font-size: 25px;
   font-weight: 900;
   letter-spacing: -3px;
-  line-height: 45px;
+  line-height: 1.5;
 }
 main .sec1 #sec1_middle {
   position: absolute;
@@ -1068,5 +1068,271 @@ main .sec5 #sec5_right #sec5_right_go:hover {
     height: 50px;
     font-size: 20px;
     bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  header #gnb {
+    display: none;
+  }
+  .pager {
+    display: flex;
+    gap: 30px;
+    top: 10px;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  main .sec1 .sec1_inner {
+    padding-top: 57px;
+    height: 90vh;
+  }
+  main .sec1 #sec1_square {
+    height: 90vh;
+  }
+  main .sec1 #sec1_square #sec1_square_title .square_title_top {
+    font-size: 45px;
+  }
+  main .sec1 #sec1_square #sec1_square_title .square_title_bottom {
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+  main .sec1 #sec1_right {
+    transform: scale(20%) translate(100%, -355%);
+  }
+  main .sec2 .sec2_inner {
+    height: 95vh;
+    padding-top: 40px;
+  }
+  main .sec2 #sec2_square {
+    width: 100%;
+    height: 50vh;
+  }
+  main .sec2 #sec2_square #sec2_square_note {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_photo {
+    width: 45vw;
+    margin: 0 auto;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_photo img {
+    width: 100%;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_note {
+    position: static;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_name {
+    position: static;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  main .sec2 #sec2_right {
+    margin-left: 15px;
+  }
+  main .sec2 #sec2_right #sec2_right_edu {
+    margin-top: 25px;
+  }
+  main .sec2 #sec2_right #sec2_right_cer,
+  main .sec2 #sec2_right #sec2_right_skill {
+    margin-top: 15px;
+  }
+  main .sec2 #sec2_right .sec2_title {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  main .sec2 #sec2_right .sec2_note,
+  main .sec2 #sec2_right .sec2_note1 {
+    font-size: 16px;
+    letter-spacing: -0.5px;
+  }
+  main .sec3 .sec3_inner {
+    height: 95vh;
+    padding-top: 40px;
+  }
+  main .sec3 #sec3_square {
+    height: 45vh;
+  }
+  main .sec3 #sec3_square #sec3_square_img {
+    width: 250px;
+    top: 170px;
+  }
+  main .sec3 #sec3_square #sec3_square_img img {
+    width: 100%;
+  }
+  main .sec3 #sec3_square #sec3_square_title {
+    margin: 115px 0 0 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  main .sec3 #sec3_square #sec3_square_title .sec3_square_title_num {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  main .sec3 #sec3_square #sec3_square_title .sec3_square_title_title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  main .sec3 #sec3_square #sec3_square_title .sec3_square_title_note {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  main .sec3 #sec3_right {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  main .sec3 #sec3_right .sec3_title {
+    font-size: 20px;
+  }
+  main .sec3 #sec3_right .sec3_el {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  main .sec3 #sec3_right .sec3_note {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  main .sec3 #sec3_right #sec3_right_color {
+    margin-top: 14px;
+  }
+  main .sec3 #sec3_right #sec3_right_period {
+    margin-top: 0px;
+  }
+  main .sec3 #sec3_right #sec3_right_go {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    bottom: 20px;
+  }
+  main .sec4 .sec4_inner {
+    height: 95vh;
+    padding-top: 40px;
+  }
+  main .sec4 #sec4_square {
+    height: 45vh;
+  }
+  main .sec4 #sec4_square #sec4_square_img {
+    width: 250px;
+    top: 170px;
+  }
+  main .sec4 #sec4_square #sec4_square_img img {
+    width: 100%;
+  }
+  main .sec4 #sec4_square #sec4_square_title {
+    margin: 115px 0 0 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  main .sec4 #sec4_square #sec4_square_title .sec4_square_title_num {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  main .sec4 #sec4_square #sec4_square_title .sec4_square_title_title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  main .sec4 #sec4_square #sec4_square_title .sec4_square_title_note {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  main .sec4 #sec4_right {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  main .sec4 #sec4_right .sec4_title {
+    font-size: 20px;
+  }
+  main .sec4 #sec4_right .sec4_el {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  main .sec4 #sec4_right .sec4_note {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  main .sec4 #sec4_right #sec4_right_color {
+    margin-top: 14px;
+  }
+  main .sec4 #sec4_right #sec4_right_period {
+    margin-top: 0px;
+  }
+  main .sec4 #sec4_right #sec4_right_go {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    bottom: 20px;
+  }
+  main .sec5 .sec5_inner {
+    height: 95vh;
+    padding-top: 40px;
+  }
+  main .sec5 #sec5_square {
+    height: 45vh;
+  }
+  main .sec5 #sec5_square #sec5_square_img {
+    width: 200px;
+    top: 170px;
+    margin-left: 80px;
+  }
+  main .sec5 #sec5_square #sec5_square_img img {
+    width: 100%;
+  }
+  main .sec5 #sec5_square #sec5_square_title {
+    margin: 115px 0 0 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  main .sec5 #sec5_square #sec5_square_title .sec5_square_title_num {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  main .sec5 #sec5_square #sec5_square_title .sec5_square_title_title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 0px;
+  }
+  main .sec5 #sec5_square #sec5_square_title .sec5_square_title_note {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  main .sec5 #sec5_right {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  main .sec5 #sec5_right .sec5_title {
+    font-size: 20px;
+  }
+  main .sec5 #sec5_right .sec5_el {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  main .sec5 #sec5_right .sec5_note {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  main .sec5 #sec5_right #sec5_right_color {
+    margin-top: 14px;
+  }
+  main .sec5 #sec5_right #sec5_right_period {
+    margin-top: 0px;
+  }
+  main .sec5 #sec5_right #sec5_right_go {
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
