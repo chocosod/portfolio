@@ -101,7 +101,11 @@ header {
 }
 
 main .sec1 .sec1_inner {
-  padding: 157px 0 0 152px;
+  padding-top: 157px;
+  max-width: 1570px;
+  margin: 0 auto;
+  height: 603px;
+  overflow: hidden;
 }
 main .sec1 #sec1_square {
   width: 601px;
@@ -168,7 +172,7 @@ main .sec1 #sec1_square #sec1_square_title .square_title_bottom {
 }
 main .sec1 #sec1_middle {
   position: absolute;
-  left: 720px;
+  left: 36.5%;
   top: 420px;
   transform: rotate(90deg);
   font-size: 40px;
@@ -176,7 +180,7 @@ main .sec1 #sec1_middle {
 }
 main .sec1 #sec1_right {
   float: left;
-  margin-left: 312px;
+  margin-left: 16.25%;
 }
 main .sec1 #sec1_right .sec1_right_note {
   font-size: 86px;
@@ -196,7 +200,11 @@ main .sec1 #sec1_right .sec1_right_square_4 {
   margin: 20.4px 0 0 7.5px;
 }
 main .sec2 .sec2_inner {
-  padding: 100px 0 0 358px;
+  padding: 100px 0 0 11.458%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 800px;
+  overflow: hidden;
 }
 main .sec2 #sec2_square {
   width: 601px;
@@ -260,6 +268,7 @@ main .sec2 #sec2_square #sec2_square_note .square_note_name {
 main .sec2 #sec2_right {
   float: left;
   margin-left: 65px;
+  min-width: 400px;
 }
 main .sec2 #sec2_right #sec2_right_edu {
   margin-top: 80px;
@@ -278,8 +287,19 @@ main .sec2 #sec2_right .sec2_note {
   margin-bottom: 7px;
   letter-spacing: 2px;
 }
+main .sec2 #sec2_right .sec2_note br {
+  display: none;
+}
+main .sec2 #sec2_right .sec2_note1 {
+  font-size: 23px;
+  letter-spacing: 2px;
+}
 main .sec3 .sec3_inner {
-  padding: 139px 0 0 358px;
+  padding: 100px 0 0 11.458%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 706px;
+  overflow: hidden;
 }
 main .sec3 #sec3_square {
   width: 601px;
@@ -349,6 +369,7 @@ main .sec3 #sec3_square #sec3_square_img {
 main .sec3 #sec3_right {
   float: left;
   margin: 50px 0 0 65px;
+  min-width: 400px;
 }
 main .sec3 #sec3_right .sec3_title {
   font-size: 24px;
@@ -393,7 +414,11 @@ main .sec3 #sec3_right #sec3_right_go:hover {
   color: #fff;
 }
 main .sec4 .sec4_inner {
-  padding: 139px 0 0 358px;
+  padding: 100px 0 0 11.458%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 706px;
+  overflow: hidden;
 }
 main .sec4 #sec4_square {
   width: 601px;
@@ -463,6 +488,7 @@ main .sec4 #sec4_square #sec4_square_img {
 main .sec4 #sec4_right {
   float: left;
   margin: 50px 0 0 65px;
+  min-width: 400px;
 }
 main .sec4 #sec4_right .sec4_title {
   font-size: 24px;
@@ -507,7 +533,11 @@ main .sec4 #sec4_right #sec4_right_go:hover {
   color: #fff;
 }
 main .sec5 .sec5_inner {
-  padding: 139px 0 0 358px;
+  padding: 100px 0 0 11.458%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 706px;
+  overflow: hidden;
 }
 main .sec5 #sec5_square {
   width: 601px;
@@ -577,6 +607,7 @@ main .sec5 #sec5_square #sec5_square_img {
 main .sec5 #sec5_right {
   float: left;
   margin: 50px 0 0 65px;
+  min-width: 400px;
 }
 main .sec5 #sec5_right .sec5_title {
   font-size: 24px;
@@ -619,4 +650,129 @@ main .sec5 #sec5_right #sec5_right_go {
 main .sec5 #sec5_right #sec5_right_go:hover {
   background: #707070;
   color: #fff;
+}
+
+@media (max-width: 1600px) {
+  main #sec2_right .sec2_note br {
+    display: block;
+  }
+}
+@media (max-width: 1500px) {
+  main .sec1 #sec1_right {
+    transform: scale(80%);
+    margin-left: 0;
+    margin-right: 10.25%;
+    float: right;
+  }
+  main .sec1 #sec1_middle {
+    display: none;
+  }
+}
+@media (max-width: 1400px) {
+  main .sec1 #sec1_square {
+    width: 90%;
+  }
+  main .sec1 #sec1_square #sec1_square_title {
+    left: 30%;
+  }
+  main .sec1 #sec1_middle {
+    display: none;
+  }
+  main .sec1 #sec1_right {
+    transform: scale(30%) translateY(-230%);
+    margin: 0;
+    margin-left: 50px;
+    float: right;
+  }
+  main .sec2 #sec2_right .sec2_note br {
+    display: block;
+  }
+}
+@media (max-width: 1203px) {
+  main .sec2 .sec2_inner {
+    padding-left: 0;
+    max-width: 601px;
+    position: relative;
+  }
+  main .sec3 .sec3_inner {
+    padding-left: 0;
+    max-width: 601px;
+    position: relative;
+  }
+  main .sec3 #sec3_right #sec3_right_go {
+    position: absolute;
+    top: 15px;
+    left: 380px;
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+  }
+  main .sec4 .sec4_inner {
+    padding-left: 0;
+    max-width: 601px;
+    position: relative;
+  }
+  main .sec4 #sec4_right #sec4_right_go {
+    position: absolute;
+    top: 15px;
+    left: 380px;
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+  }
+  main .sec5 .sec5_inner {
+    padding-left: 0;
+    max-width: 601px;
+    position: relative;
+  }
+  main .sec5 #sec5_right #sec5_right_go {
+    position: absolute;
+    top: 15px;
+    left: 380px;
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  main .sec1 .sec1_inner {
+    height: 1100px;
+  }
+  main .sec1 #sec1_square {
+    height: 1100px;
+  }
+  main .sec1 #sec1_right {
+    transform: scale(80%) translate(-45%, -125%);
+  }
+  main .sec2 .sec2_inner {
+    height: 1100px;
+    max-width: 900px;
+    padding-top: 150px;
+  }
+  main .sec2 #sec2_square {
+    width: 900px;
+    height: 500px;
+  }
+  main .sec2 #sec2_square #sec2_square_note {
+    position: relative;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_note {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    font-size: 27px;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_name {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+  }
+  main .sec2 #sec2_right .sec2_note br {
+    display: none;
+  }
+  main .sec3 .sec3_inner {
+    height: 1100px;
+    max-width: 900px;
+    padding-top: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */
