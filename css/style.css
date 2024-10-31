@@ -736,22 +736,22 @@ main .sec5 #sec5_right #sec5_right_go:hover {
 }
 @media (max-width: 1024px) {
   main .sec1 .sec1_inner {
-    height: 1100px;
+    height: 80vh;
   }
   main .sec1 #sec1_square {
-    height: 1100px;
+    height: 80vh;
   }
   main .sec1 #sec1_right {
     transform: scale(80%) translate(-45%, -125%);
   }
   main .sec2 .sec2_inner {
-    height: 1100px;
+    height: 90vh;
     max-width: 900px;
     padding-top: 150px;
   }
   main .sec2 #sec2_square {
-    width: 900px;
-    height: 500px;
+    width: 100%;
+    height: 35vh;
   }
   main .sec2 #sec2_square #sec2_square_note {
     position: relative;
@@ -771,8 +771,302 @@ main .sec5 #sec5_right #sec5_right_go:hover {
     display: none;
   }
   main .sec3 .sec3_inner {
-    height: 1100px;
+    height: 85vh;
     max-width: 900px;
     padding-top: 150px;
+  }
+  main .sec3 #sec3_square {
+    width: 100%;
+    height: 35vh;
+  }
+  main .sec3 #sec3_square #sec3_square_title {
+    margin: 155px 0 0 600px;
+  }
+  main .sec3 #sec3_square #sec3_square_img {
+    margin: 0px 0 0 70px;
+    position: absolute;
+    top: 150px;
+  }
+  main .sec3 #sec3_right #sec3_right_go {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    width: 274px;
+    height: 68px;
+    font-size: 26px;
+  }
+  main .sec4 .sec4_inner {
+    height: 85vh;
+    max-width: 900px;
+    padding-top: 150px;
+  }
+  main .sec4 #sec4_square {
+    width: 100%;
+    height: 35vh;
+  }
+  main .sec4 #sec4_square #sec4_square_title {
+    margin: 155px 0 0 600px;
+  }
+  main .sec4 #sec4_square #sec4_square_img {
+    margin: 0px 0 0 70px;
+    position: absolute;
+    top: 150px;
+  }
+  main .sec4 #sec4_right #sec4_right_go {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    width: 274px;
+    height: 68px;
+    font-size: 26px;
+  }
+  main .sec5 .sec5_inner {
+    height: 85vh;
+    max-width: 900px;
+    padding-top: 150px;
+  }
+  main .sec5 #sec5_square {
+    width: 100%;
+    height: 35vh;
+  }
+  main .sec5 #sec5_square #sec5_square_title {
+    margin: 155px 0 0 600px;
+  }
+  main .sec5 #sec5_square #sec5_square_img {
+    margin: 0px 0 0 70px;
+    position: absolute;
+    top: 150px;
+  }
+  main .sec5 #sec5_right #sec5_right_go {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    width: 274px;
+    height: 68px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 820px) {
+  main .sec1 .sec1_inner {
+    height: 80vh;
+  }
+  main .sec1 #sec1_square {
+    height: 80vh;
+  }
+  main .sec1 #sec1_right {
+    transform: scale(60%) translate(-35%, -155%);
+  }
+  main .sec2 .sec2_inner {
+    height: 90vh;
+    max-width: 720px;
+    padding-top: 150px;
+  }
+  main .sec2 #sec2_square {
+    width: 100%;
+    height: 35vh;
+  }
+  main .sec2 #sec2_square #sec2_square_note {
+    position: relative;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_photo {
+    width: 30.5vw;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_photo img {
+    width: 100%;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_note {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 22px;
+    width: 30.5vw;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_name {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+  }
+  main .sec2 #sec2_right .sec2_note br {
+    display: none;
+  }
+  main .sec3 #sec3_square {
+    height: 40vh;
+  }
+  main .sec3 #sec3_square #sec3_square_title {
+    margin: 115px 0 0 550px;
+  }
+  main .sec4 #sec4_square {
+    height: 40vh;
+  }
+  main .sec4 #sec4_square #sec4_square_title {
+    margin: 115px 0 0 500px;
+  }
+  main .sec5 #sec5_square {
+    height: 40vh;
+  }
+  main .sec5 #sec5_square #sec5_square_title {
+    margin: 115px 0 0 500px;
+  }
+}
+@media (max-width: 768px) {
+  main .sec1 #sec1_right {
+    transform: scale(50%) translate(-35%, -155%);
+  }
+  main .sec2 .sec2_inner {
+    height: 90vh;
+    max-width: 720px;
+    padding-top: 150px;
+  }
+  main .sec2 #sec2_square {
+    width: 100%;
+    height: 35vh;
+  }
+  main .sec2 #sec2_square #sec2_square_note {
+    position: relative;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_photo {
+    width: 30.5vw;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_photo img {
+    width: 100%;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_note {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 22px;
+    width: 30.5vw;
+    margin-top: 0;
+  }
+  main .sec2 #sec2_square #sec2_square_note .square_note_name {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+  }
+  main .sec2 #sec2_right #sec2_right_cer,
+  main .sec2 #sec2_right #sec2_right_skill {
+    margin-top: 50px;
+  }
+  main .sec2 #sec2_right .sec2_title {
+    font-size: 20px;
+  }
+  main .sec2 #sec2_right .sec2_note,
+  main .sec2 #sec2_right .sec2_note1 {
+    font-size: 19px;
+  }
+  main .sec3 #sec3_square {
+    height: 40vh;
+  }
+  main .sec3 #sec3_square #sec3_square_img {
+    width: 400px;
+  }
+  main .sec3 #sec3_square #sec3_square_img img {
+    width: 100%;
+  }
+  main .sec3 #sec3_square #sec3_square_title {
+    margin: 115px 0 0 500px;
+  }
+  main .sec3 #sec3_right {
+    margin-top: 30px;
+  }
+  main .sec3 #sec3_right .sec3_title {
+    font-size: 22px;
+  }
+  main .sec3 #sec3_right .sec3_el {
+    font-size: 18px;
+  }
+  main .sec3 #sec3_right .sec3_note {
+    font-size: 18px;
+  }
+  main .sec3 #sec3_right #sec3_right_color {
+    margin-top: 24px;
+  }
+  main .sec3 #sec3_right #sec3_right_period {
+    margin-top: 4px;
+  }
+  main .sec3 #sec3_right #sec3_right_go {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    bottom: 30px;
+  }
+  main .sec4 #sec4_square {
+    height: 40vh;
+  }
+  main .sec4 #sec4_square #sec4_square_img {
+    width: 400px;
+  }
+  main .sec4 #sec4_square #sec4_square_img img {
+    width: 100%;
+  }
+  main .sec4 #sec4_square #sec4_square_title {
+    margin: 115px 0 0 500px;
+  }
+  main .sec4 #sec4_right {
+    margin-top: 30px;
+  }
+  main .sec4 #sec4_right .sec4_title {
+    font-size: 22px;
+  }
+  main .sec4 #sec4_right .sec4_el {
+    font-size: 18px;
+  }
+  main .sec4 #sec4_right .sec4_note {
+    font-size: 18px;
+  }
+  main .sec4 #sec4_right #sec4_right_color {
+    margin-top: 24px;
+  }
+  main .sec4 #sec4_right #sec4_right_period {
+    margin-top: 4px;
+  }
+  main .sec4 #sec4_right #sec4_right_go {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    bottom: 30px;
+  }
+  main .sec5 #sec5_square {
+    height: 40vh;
+  }
+  main .sec5 #sec5_square #sec5_square_img {
+    width: 300px;
+  }
+  main .sec5 #sec5_square #sec5_square_img img {
+    width: 100%;
+  }
+  main .sec5 #sec5_square #sec5_square_title {
+    margin: 115px 0 0 400px;
+    width: 350px;
+  }
+  main .sec5 #sec5_right {
+    margin-top: 30px;
+  }
+  main .sec5 #sec5_right .sec5_title {
+    font-size: 22px;
+  }
+  main .sec5 #sec5_right .sec5_el {
+    font-size: 18px;
+  }
+  main .sec5 #sec5_right .sec5_note {
+    font-size: 18px;
+  }
+  main .sec5 #sec5_right #sec5_right_color {
+    margin-top: 24px;
+  }
+  main .sec5 #sec5_right #sec5_right_period {
+    margin-top: 4px;
+  }
+  main .sec5 #sec5_right #sec5_right_go {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
