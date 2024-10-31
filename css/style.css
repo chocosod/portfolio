@@ -1089,6 +1089,19 @@ main .sec5 #sec5_right #sec5_right_go:hover {
   main .sec1 #sec1_square {
     height: 90vh;
   }
+  main .sec1 #sec1_square #sec1_square_menu {
+    width: 60px;
+  }
+  main .sec1 #sec1_square #sec1_square_menu .square_menu_img {
+    width: 60px;
+  }
+  main .sec1 #sec1_square #sec1_square_menu .square_menu_img img {
+    width: 100%;
+  }
+  main .sec1 #sec1_square #sec1_square_menu .square_menu_img_note {
+    font-size: 20px;
+    left: 13px;
+  }
   main .sec1 #sec1_square #sec1_square_title .square_title_top {
     font-size: 45px;
   }
@@ -1106,6 +1119,22 @@ main .sec5 #sec5_right #sec5_right_go:hover {
   main .sec2 #sec2_square {
     width: 100%;
     height: 50vh;
+  }
+  main .sec2 #sec2_square #sec2_square_menu {
+    width: 60px;
+  }
+  main .sec2 #sec2_square #sec2_square_menu .square_menu_img {
+    width: 60px;
+  }
+  main .sec2 #sec2_square #sec2_square_menu .square_menu_img img {
+    width: 100%;
+  }
+  main .sec2 #sec2_square #sec2_square_menu .square_menu_img_note {
+    font-size: 20px;
+    left: 13px;
+  }
+  main .sec2 #sec2_square #sec2_square_intro {
+    margin-top: 10px;
   }
   main .sec2 #sec2_square #sec2_square_note {
     position: relative;
@@ -1156,20 +1185,40 @@ main .sec5 #sec5_right #sec5_right_go:hover {
     padding-top: 40px;
   }
   main .sec3 #sec3_square {
-    height: 45vh;
+    height: 40vh;
+  }
+  main .sec3 #sec3_square #sec3_square_menu {
+    width: 60px;
+  }
+  main .sec3 #sec3_square #sec3_square_menu .square_menu_img {
+    width: 60px;
+  }
+  main .sec3 #sec3_square #sec3_square_menu .square_menu_img img {
+    width: 100%;
+  }
+  main .sec3 #sec3_square #sec3_square_menu .square_menu_img_note {
+    font-size: 20px;
+    left: 13px;
+  }
+  main .sec3 #sec3_square #sec3_square_intro {
+    margin-top: 10px;
   }
   main .sec3 #sec3_square #sec3_square_img {
     width: 250px;
-    top: 170px;
+    top: 100px;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   main .sec3 #sec3_square #sec3_square_img img {
     width: 100%;
   }
   main .sec3 #sec3_square #sec3_square_title {
-    margin: 115px 0 0 80px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    margin: 50px auto;
+    transform: translateX(10%);
   }
   main .sec3 #sec3_square #sec3_square_title .sec3_square_title_num {
     font-size: 16px;
@@ -1217,20 +1266,40 @@ main .sec5 #sec5_right #sec5_right_go:hover {
     padding-top: 40px;
   }
   main .sec4 #sec4_square {
-    height: 45vh;
+    height: 40vh;
+  }
+  main .sec4 #sec4_square #sec4_square_menu {
+    width: 60px;
+  }
+  main .sec4 #sec4_square #sec4_square_menu .square_menu_img {
+    width: 60px;
+  }
+  main .sec4 #sec4_square #sec4_square_menu .square_menu_img img {
+    width: 100%;
+  }
+  main .sec4 #sec4_square #sec4_square_menu .square_menu_img_note {
+    font-size: 20px;
+    left: 13px;
+  }
+  main .sec4 #sec4_square #sec4_square_intro {
+    margin-top: 10px;
   }
   main .sec4 #sec4_square #sec4_square_img {
     width: 250px;
-    top: 170px;
+    top: 100px;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   main .sec4 #sec4_square #sec4_square_img img {
     width: 100%;
   }
   main .sec4 #sec4_square #sec4_square_title {
-    margin: 115px 0 0 80px;
+    margin: 50px auto;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    transform: translateX(10%);
   }
   main .sec4 #sec4_square #sec4_square_title .sec4_square_title_num {
     font-size: 16px;
@@ -1278,21 +1347,40 @@ main .sec5 #sec5_right #sec5_right_go:hover {
     padding-top: 40px;
   }
   main .sec5 #sec5_square {
-    height: 45vh;
+    height: 40vh;
+  }
+  main .sec5 #sec5_square #sec5_square_menu {
+    width: 60px;
+  }
+  main .sec5 #sec5_square #sec5_square_menu .square_menu_img {
+    width: 60px;
+  }
+  main .sec5 #sec5_square #sec5_square_menu .square_menu_img img {
+    width: 100%;
+  }
+  main .sec5 #sec5_square #sec5_square_menu .square_menu_img_note {
+    font-size: 20px;
+    left: 13px;
+  }
+  main .sec5 #sec5_square #sec5_square_intro {
+    margin-top: 10px;
   }
   main .sec5 #sec5_square #sec5_square_img {
     width: 200px;
-    top: 170px;
-    margin-left: 80px;
+    top: 100px;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
   main .sec5 #sec5_square #sec5_square_img img {
     width: 100%;
   }
   main .sec5 #sec5_square #sec5_square_title {
-    margin: 115px 0 0 80px;
+    margin: 50px auto;
     display: flex;
     align-items: center;
     gap: 10px;
+    transform: translateX(10%);
   }
   main .sec5 #sec5_square #sec5_square_title .sec5_square_title_num {
     font-size: 16px;
